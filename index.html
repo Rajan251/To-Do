@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS todo list with clocks</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    
+</head>
+
+<body>
+
+  <section class="todaySection"></section>
+  <section class="todo">
+    <form class="newTask">
+      <input type="text" placeholder="What do you have planned today?">
+      <button class="push">
+        <i class="fa-solid fa-plus"></i> <span class="mdVisible">Add task</span>
+      </button>
+    </form>
+    <div class="todoContainer">
+      <ul id="tasks">
+        <li class="task">
+          <button class="completeTask">
+            <i class="fa-solid fa-check"></i>
+          </button>
+          <span class="taskName">
+            abc
+          </span>
+          <div class="taskBtn">
+            <button class="edit">
+              <i class="fa-regular fa-pen-to-square"></i>
+            </button>
+            <button class="delete">
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+          </div>
+        </li>
+        <li class="task">
+          <button class="completeTask">
+            <i class="fa-solid fa-check"></i>
+          </button>
+          <span class="taskName">
+           Today Home work
+          </span>
+          <div class="taskBtn">
+            <button class="edit">
+              <i class="fa-regular fa-pen-to-square"></i>
+            </button>
+            <button class="delete">
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+          </div>
+        </li>
+        <li class="task">
+          <button class="completeTask">
+            <i class="fa-solid fa-check"></i>
+          </button>
+          <span class="taskName">
+            abc
+          </span>
+          <div class="taskBtn">
+            <button class="edit">
+              <i class="fa-regular fa-pen-to-square"></i>
+            </button>
+            <button class="delete">
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- <script src="app.js"></script> -->
+  <script src="todo.js"></script>
+
+</body>
+
+</html>
